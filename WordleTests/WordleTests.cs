@@ -69,12 +69,12 @@ namespace WordleTests
                 new WordleModel { Letter = 'T', Postion = PositionEnum.NotSet, Index = 0 },
                 new WordleModel { Letter = 'E', Postion = PositionEnum.NotSet, Index = 1 },
                 new WordleModel { Letter = 'N', Postion = PositionEnum.NotSet, Index = 2 },
-                new WordleModel { Letter = 'E', Postion = PositionEnum.NotSet, Index = 3 },
-                new WordleModel { Letter = 'D', Postion = PositionEnum.NotSet, Index = 4 },
+                new WordleModel { Letter = 'D', Postion = PositionEnum.NotSet, Index = 3 },
+                new WordleModel { Letter = 'E', Postion = PositionEnum.NotSet, Index = 4 },
                 new WordleModel { Letter = 'R', Postion = PositionEnum.NotSet, Index = 5 }
             };
 
-            return new[] { new object[] { "RENDER", "TENDER", 3, result } };
+            return new[] { new object[] { "RENDER", "TENDER", 5, result } };
         }
     }
 }

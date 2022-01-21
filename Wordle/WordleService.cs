@@ -13,6 +13,7 @@ namespace Wordle
     public class WordleService : IWordleService
     {
         private string[] words = { "bless","range","spoil","great","stain","craft","space","straw","sheep","cabin","brink","screw","sight","troop","ready","loose","south","dirty","wheel","harsh","field","sweet","feast","tribe","truck","sheet","wound","fling","apple","enjoy","skate","trend","orbit","worth","power","awful","raise","judge","tiger","coach","ghost","gaffe","sport","wrist","mayor","share","doubt","punch","major","rumor"};
+        private string[] answers = { "" };
 
         public string GenerateWord(int len)
         {
