@@ -32,17 +32,17 @@ namespace Wordle
 
                 if (wordIndex.Count() == 0)
                 {
-                    letter.Postion = PositionEnum.DoesNotExist;
+                    letter.Postion = PositionEnum.Absent;
                 }
                 else
                 {
                     if (wordIndex.Any(x => x == letter.Index))
                     {
-                        letter.Postion = PositionEnum.ExistsInCorrectPos;
+                        letter.Postion = PositionEnum.Correct;
                     }
                     else
                     {
-                        letter.Postion = PositionEnum.ExistsInWrongPos;
+                        letter.Postion = PositionEnum.Present;
                     }
                 }
             }

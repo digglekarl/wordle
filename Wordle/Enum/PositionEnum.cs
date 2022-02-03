@@ -7,8 +7,8 @@ namespace Wordle.Enum
     public enum PositionEnum
     {
         NotSet = 0,
-        ExistsInCorrectPos=1,
-        ExistsInWrongPos=2,
-        DoesNotExist=3
+        Correct=1,
+        Present=2,
+        Absent=3
     }
 }

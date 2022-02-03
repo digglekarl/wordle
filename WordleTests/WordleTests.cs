@@ -41,7 +41,7 @@ namespace WordleTests
             //Act
 
             var result = this.service.IsValidAnswer(word, guess, expected);
-            int actual = result.Count(kv => kv.Postion == PositionEnum.ExistsInCorrectPos);
+            int actual = result.Count(kv => kv.Postion == PositionEnum.Correct);
 
             //Assert
             Assert.AreEqual(actual, count);
