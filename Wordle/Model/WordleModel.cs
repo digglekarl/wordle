@@ -9,7 +9,7 @@ namespace Wordle.Model
     {
         //Correct, Present, Missing
         public char Letter { get; set; }
-        public PositionEnum Postion { get; set; }
+        public PositionEnum Position { get; set; }
         public int Index { get; set; }
     }
 }
